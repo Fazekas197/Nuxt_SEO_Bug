@@ -1,0 +1,17 @@
+{
+	"name": "nuxt-sanity",
+	"version": "1.0.0",
+	"description": "",
+	"main": "index.js",
+	"scripts": {
+		"dev": "concurrently \"npm run dev --workspace=packages/studio\" \"npm run dev --workspace=packages/app\""
+	},
+	"author": "",
+	"license": "ISC",
+	"workspaces": [
+		"packages/*"
+	],
+	"dependencies": {
+		"concurrently": "9.0.1"
+	}
+}
