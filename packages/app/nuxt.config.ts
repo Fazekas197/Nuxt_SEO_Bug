@@ -1,7 +1,7 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
 	compatibilityDate: "2025-05-15",
-	modules: ["@nuxt/ui", "@nuxtjs/sanity"],
+	modules: ["@nuxt/ui", "@nuxtjs/sanity", "@nuxtjs/seo"],
 	sanity: {
 		projectId: process.env.SANITY_STUDIO_PROJECTID,
 		dataset: process.env.SANITY_STUDIO_DATASET || "production",
